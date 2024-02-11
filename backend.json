@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Age": {
+      "type": "string"
+    },
+    "Intrest": {
+      "type": "string"
+    },
+    "h": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "format": "uri"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "required": ["Age", "Intrest", "h", "image", "name"]
+}
